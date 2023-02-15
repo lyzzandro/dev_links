@@ -82,8 +82,8 @@ body * {
     position: absolute;
     z-index: 1;
     transform: translateY(-50%);
-
-    animation: slide-back 0.2s forwards;
+    transition: outline 0.2s ease-out;
+    animation: slide-back 0.1s forwards;
 }
 
 .light #switch button {
